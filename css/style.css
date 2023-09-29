@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.nav{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   position: fixed;
+   background-color: white;
+}
+.logo{
+    padding-left: 80px;
+
+}
+
+.menu{
+    float: left;
+    padding: 15px;
+  
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: SemiBold,sans-serif;
+   padding-left: 14px;
+ 
+}
+
+ .active{ margin: 30px;
+    padding: 13px;
+    background-color: #ff2b85;
+    border-radius: 28px;
+    color: white!important;}
+.video h1{ 
+    height: 245px;
+    color: white;
+    font-size: 55px;
+    margin:-125px 100px ;
+    font-weight: bolder;
+    font-family:  SemiBold,sans-serif;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    
+
+}
+.container h2{
+    font-size: 45px;
+    text-align: justify;
+    color:#343b46 ;
+    padding: 110px;
+    font-family: SemiBold,sans-serif;
+}
+.container2{
+    width: 100%;
+    height: 450px;
+
+}
+.container2 img{
+    padding-left:115px;
+  
+}
+.container2 h1{
+    color: #343b46;
+    float: right;
+    padding-top: 10px;
+    padding-right: 210px;
+    font-size: 40px;
+    font-family: SemiBold,sans-serif;
+}
+.container2 p{
+    margin-top: -175px;
+    padding-right:185px;
+    font-size:20px;
+    color: #343b46;
+    float: right;
+   
+    font-family: SemiBold,sans-serif;
+}
+.story {
+    float: left;
+    margin-left: 710px;
+    margin-top: -45px;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: SemiBold,sans-serif ;
+    text-decoration: none;
+    font-size:20px ;
+    color: white;
+    background-color: #ff2b85;
+}
+.teste{
+    width: 100%;
+    height:450px ;
+}
+.teste img{
+    display: block;
+    margin-right:100px ;
+    margin-top: -195px;
+    float: right;
+    height: 325px;
+}
+.teste h1{
+    color: #343b46;
+    font-family: SemiBold,sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 80px;
+    padding-left: 110px;
+}
+.teste p{
+    color: #343b46;
+    font-size: 18px;
+    font-family: SemiBold,sans-serif;
+    text-align: justify;
+    margin-top: 35px;
+    margin-left: 110px;
+
+}
+.tool{
+    margin: 65px;
+}
+.job{
+    height:450px ;
+    width: 100%;
+    
+}
+.job img{
+    float: left;
+    margin-left: 90px;
+}
+.job h1{
+    color: #343b46;
+    margin-left: 60px;
+    font-weight: bolder;
+    margin-top: 42px;
+    float: left;
+    font-family:SemiBold,sans-serif ;
+    font-size: 43px;
+    
+}
+.job p{
+    text-align: justify;
+    padding-top: 35px;
+    padding-left: 60px;
+    float: left;
+    font-size: 20px;
+}
+.job a{
+    
+    padding-right: 35px;
+    padding-left: 35px;
+}
+.heard h1{
+    margin: 25px;
+    text-align: center;
+    font-family:SemiBold,sans-serif ;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #343b46;
+}
+.heard p{
+    font-size: 18px;
+    text-align: center;
+    font-family:SemiBold,sans-serif ; 
+}
+footer{
+    background:#f8f8f8;
+    padding: 40px 130px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.first-1{
+    display: flex;
+}
+.first-1 span{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 29px;
+    font-weight: 400;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.second div{
+    width: 200px;
+
+}
+.second h4{
+    font-weight: lighter;
+    color: rgb(22, 22, 22);
+    margin-bottom: 10px;
+    font-size:20px ;
+    /*white-space: nowrap;*/
+}
+.second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color:gray ;
+    font-size: 1rem;
+}
+.third{
+    padding: 10px 0px;
+    color: gray;
+    font-size:1rem ;
+
+}
